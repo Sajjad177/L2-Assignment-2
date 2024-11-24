@@ -1,7 +1,7 @@
 ## Stationery Shop Backend Mangement
 
 
-### 🌐 [Live link to WorkDay](https://level-2-assignment-2-kappa.vercel.app) 🌐
+### 🌐 [Live link to server](https://level-2-assignment-2-kappa.vercel.app) 🌐
 
 ## 📜 Project Overview :
 
