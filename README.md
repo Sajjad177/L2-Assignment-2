@@ -26,7 +26,6 @@
      ```bash
      npm install
      ```
-     - Check the `tsconfig.json` and check whice command add there.
 4. **Environment setup:**
    - In your server side configure environment variables by creating a `.env` file in the root directory. Add the following variables:
      ```plaintext
@@ -34,7 +33,30 @@
      MONGODB_URI=mongodb:add your mongodb url
      ```
 5. **Access the server :**
-  - run code
+  - - Check the `tsconfig.json` and check whice command add there.
+    1. Live reloading for typescript code : 
     ```tarminal
         npm run start
     ```
+    2. Runs the JavaScript file using Node.js.
+    ```tarminal
+        npm run build
+    ```
+    3. Runs the TypeScript compiler to transpile TypeScript files into JavaScript files
+    ```tarminal
+        npm run build
+    ```
+    4. Lints defined coding standards and check error :
+    ```tarminal
+        npm run lint
+    ```
+    5. Automatically fix any linting errors :
+    ```tarminal
+        npm run lint:fix
+    ```
+    6. Formats code and files:
+    ```tarminal
+        npm run format
+    ```
+     
+
