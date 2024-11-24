@@ -38,11 +38,11 @@
     ```tarminal
         npm run start
     ```
-    2. Runs the JavaScript file using Node.js.
+    2. The compiled javascript entry point for production environment : 
     ```tarminal
-        npm run build
+        npm run start:prod
     ```
-    3. Runs the TypeScript compiler to transpile TypeScript files into JavaScript files
+    3. Runs the TypeScript compiler to transpile TypeScript files into JavaScript files : 
     ```tarminal
         npm run build
     ```
